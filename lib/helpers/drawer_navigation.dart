@@ -22,9 +22,9 @@ class _DrawerNavigationState extends State<DrawerNavigation> {
                 backgroundImage: NetworkImage(
                     'https://flutter.dev/assets/images/shared/brand/flutter/logo/flutter-lockup.png'),
               ),
-              accountName: Text('Do Tien Thanh'),
-              accountEmail: Text('thanhnupvienthong@gmail.com'),
-              decoration: BoxDecoration(color: Colors.blue),
+              accountName: Text('Nguyen Duc Cuong'),
+              accountEmail: Text('cuongndgch18641@fpt.edu.vn'),
+              decoration: BoxDecoration(color: Colors.green),
             ),
             ListTile(
               leading: Icon(Icons.home),

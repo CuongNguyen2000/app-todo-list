@@ -99,7 +99,7 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
                               _categoryDescriptionController.clear();
                             },
                             icon: Icon(Icons.clear)),
-                        hintText: 'Write a decription',
+                        hintText: 'Write a description',
                         labelText: 'Description'),
                   )
                 ],

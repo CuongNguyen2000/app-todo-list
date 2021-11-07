@@ -8,6 +8,7 @@ class DatabaseConnection {
     var path = join(directory.path, 'db_todolist_sqflite');
     var database =
         await openDatabase(path, version: 1, onCreate: _onCreateDatabase);
+    print(database);
     return database;
   }
 
